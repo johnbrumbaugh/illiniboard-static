@@ -1,0 +1,68 @@
+.dn_right_side_bar {
+	font-size: 0.7rem;
+	font-weight: 400;
+
+	h5 {
+		font-weight: 700;
+	}
+
+	.note_box {
+		background-color: $white;
+		border: 0;
+		text-align: left;
+
+		.close {
+			background: none;
+		}
+
+		&.info {
+			background-color: $white;
+			border: 1px solid $illini-navy;
+			color: $illini-metallic-silver;
+
+			.iconic {
+				margin-top: 1.5rem;
+			}
+		}
+	}
+}
+
+.dn_main {
+	font-weight: 400;
+
+	p.summary {
+		font-family: $gotham-book;
+		font-weight: inherit;
+		font-size: 0.8rem;
+	}
+
+	a.site_link {
+		font-size: 0.6rem;
+	}
+
+	a.comment_link {
+		@extend .site_link;
+		color: $illini-orange;
+	}
+
+	a {
+		font-weight: 700;
+		text-decoration: underline;
+		font-size: 0.9rem;
+	}
+
+	h1 {
+		font-weight: 700;
+		color: $illini-orange;
+	}
+}
+
+.iconic-platform-linux-body {
+	fill: $illini-orange;
+	stroke: $illini-orange;
+}
+
+.iconic-platform-linux-mouth {
+	fill: $illini-navy;
+	stroke: $illini-navy;
+}

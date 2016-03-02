@@ -23,5 +23,5 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('default', ['sass']);
-    grunt.registerTask('dev_deploy', ['copy:default_development_deploy']);
+    grunt.registerTask('dev_deploy', ['sass', 'copy:default_development_deploy']);
 }
