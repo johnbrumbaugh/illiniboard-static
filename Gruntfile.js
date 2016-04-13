@@ -3,6 +3,9 @@ module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks
     grunt.initConfig({
         sass: {
+            options: {
+                loadPath: ['node_modules/motion-ui/src']
+            },
             dist: {
                 files: {
                     'dist/illiniboard.css' : 'assets/foundation.scss'
@@ -10,18 +13,27 @@ module.exports = function(grunt) {
             }
         },
         copy: {
-            default_development_deploy: {
+            default_development_deploy_css: {
                 files: [
                     {
-                        
                         src: ['dist/illiniboard.css'], 
                         dest: '../illiniboard-frontend/static/css/illiniboard.css', 
-                        filter: 'isFile'}
+                        filter: 'isFile'
+                    }
+                ]
+            },
+            default_development_deploy_js: {
+                files: [
+                    {
+                        src: ['dist/foundation.min.js'],
+                        dest: '../illiniboard-frontend/static/js/foundation.min.js',
+                        filter: 'isFile'
+                    }
                 ]
             }
         }
     });
 
     grunt.registerTask('default', ['sass']);
-    grunt.registerTask('dev_deploy', ['sass', 'copy:default_development_deploy']);
+    grunt.registerTask('dev_deploy', ['sass', 'copy:default_development_deploy_css', 'copy:default_development_deploy_js']);
 }

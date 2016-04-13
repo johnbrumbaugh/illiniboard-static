@@ -5,6 +5,17 @@
 // scss-lint:disable ColorVariable, QualifyingElement, VendorPrefix
 
 ////
+/// @group global_illiniboard
+////
+$ideal-sans: "Ideal Sans SSm A", "Ideal Sans SSm B", Geneva, sans-serif;
+$gotham-book: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
+$illini-orange: #E04E39;
+$illini-navy: #13294B;
+$illini-white: #FFFFFF;
+$illini-dark-steel-gray: #707372;
+$illini-metallic-silver: #A5ACAF;
+
+////
 /// @group global
 ////
 
@@ -23,8 +34,8 @@ $global-lineheight: 1.5 !default;
 /// Colors used for buttons, callouts, links, etc. There must always be a color called `primary`.
 /// @type Map
 $foundation-palette: (
-  primary: #2199e8,
-  secondary: #777,
+  primary: $illini-navy,
+  secondary: $illini-dark-steel-gray,
   success: #3adb76,
   warning: #ffae00,
   alert: #ec5840,
@@ -32,7 +43,7 @@ $foundation-palette: (
 
 /// Color used for light gray UI items.
 /// @type Color
-$light-gray: #e6e6e6 !default;
+$light-gray: $illini-metallic-silver !default;
 
 /// Color used for medium gray UI items.
 /// @type Color
@@ -40,7 +51,7 @@ $medium-gray: #cacaca !default;
 
 /// Color used for dark gray UI items.
 /// @type Color
-$dark-gray: #8a8a8a !default;
+$dark-gray: $illini-dark-steel-gray !default;
 
 /// Color used for black ui items.
 /// @type Color
@@ -60,7 +71,7 @@ $body-font-color: $black !default;
 
 /// Font stack of the body.
 /// @type List
-$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif !default;
+$body-font-family: $ideal-sans !default;
 
 /// Set to `true` to enable antialiased type, using the `-webkit-font-smoothing` and `-moz-osx-font-smoothing` CSS properties.
 /// @type Boolean

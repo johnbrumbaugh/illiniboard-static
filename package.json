@@ -12,6 +12,7 @@
     "grunt-contrib-copy": "^0.8.2",
     "grunt-contrib-sass": "^0.9.2",
     "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^3.4.0"
+    "load-grunt-tasks": "^3.4.0",
+    "motion-ui": "^1.2.2"
   }
 }
