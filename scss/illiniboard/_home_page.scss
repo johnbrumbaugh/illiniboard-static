@@ -1,0 +1,180 @@
+.hp_second_row {
+	padding-top: 20px;	
+}
+
+.hp_third_row {
+	padding-top: 40px;
+}
+
+.hp_secondary_article {
+	position: relative;
+
+	p.hp_image_label {
+		position: absolute;
+		bottom: 0;
+		padding: $orbit-caption-padding;
+	  	margin-bottom: 0;
+	  	color: $white;
+	  	background-color: $orbit-caption-background;
+	  	font-size: 0.7em;
+	  	font-family: $gotham-book;
+	  	font-weight: 400;
+	}
+}
+
+figcaption.hp_first_row {
+	color: $white;
+	font-family: $gotham-book;
+	font-size: 0.8em;
+}
+
+h4.hp_image_title {
+	position: absolute;
+	top: 0;
+	padding: $orbit-caption-padding;
+	margin-top: 0;
+  	width: 100%;
+  	color: $white;
+  	background-color: $orbit-caption-background;
+  	font-weight: 700;
+}
+
+.schedule_block {
+	border: 1px solid $illini-orange;
+	box-shadow: 0 2px 0 rgba(204,204,204,.15);
+	margin-bottom: 1rem;
+	border-radius: 0.25rem;
+	background: $white;
+	position: relative;
+
+	.header {
+		background: $illini-navy;
+		font-weight: 600;
+		color: $white;
+		padding: 0 1.25rem;
+		overflow: hidden;
+		position: relative;
+
+		h2 {
+			margin: 0;
+			color: $white;
+			font-size: 0.7em;
+			font-weight: 700;
+			-webkit-margin-before: 0.83em;
+			-webkit-margin-after: 0.83em;
+			-webkit-margin-start: 0px;
+			-webkit-margin-end: 0px;
+		}
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	.game {
+		padding-left: 10px;
+		border-bottom: 1px solid $illini-orange;
+		color: $illini-dark-steel-gray;
+		&:last-child {
+			border-bottom: none;
+		}
+
+		.sport_icon {
+			display: block;
+			float: right;
+			margin-left: 0.75rem;
+			margin-right: 0.75rem;
+		}
+
+		.date {
+			text-transform: uppercase;
+			text-decoration: underline;
+			color: $illini-orange;
+			font-weight: 700;
+			font-size: 0.5em;
+			line-height: 1.1em;
+		}
+
+		.opponent {
+			text-transform: uppercase;
+			color: $illini-dark-steel-gray;
+			font-weight: 600;
+			font-size: 0.5em;
+			line-height: 1.1em;
+		}
+
+		.time_tv {
+			text-transform: uppercase;
+			color: $black;
+			font-size: 0.5em;
+			line-height: 1.1em;
+		}
+	}
+}
+
+.hp_tweet_container {
+	border: 1px solid $illini-metallic-silver;
+	font-size: 0.8em;
+	padding: 5px;
+	margin-bottom: 20px;
+	
+	.header {
+		margin-bottom: 10px;
+		
+		.profile_image { 
+			float: left;
+			padding-right: 10px; 
+		}
+		
+		.hp_author_name { font-weight: 700; }
+		.hp_author_handle {
+			color: $illini-metallic-silver;
+			font-weight: 200;
+		}
+		
+	}
+	
+	.header:after {
+		content: " ";
+		display: block;
+		height: 0;
+		clear: both;
+	}
+	
+	p.hp_tweet_content { 
+		font-size: 0.7rem;
+		color: $illini-dark-steel-gray;
+		font-family: $gotham-book;
+	}
+	
+	.action_bar {
+		.hp_tweet_actions { float: right; }
+		.hp_tweet_time {
+			font-size: 0.6rem;
+			color: #AAB8C2;
+		}
+	}
+}
+
+.iconic_social_twitter {
+	fill: #55acee;
+	stroke: #55acee;
+}
+
+.hp_article_list_element {
+	border-bottom: solid 1px $illini-navy;
+	margin-bottom: 15px;
+	
+	p {
+		font-size: 0.6em;
+		font-family: $gotham-book;
+	}
+	
+	h4 {
+		font-weight: 700;
+		color: $illini-orange;
+		text-decoration: underline;
+	}
+}

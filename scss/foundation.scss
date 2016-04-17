@@ -50,6 +50,7 @@
 @import 'components/tooltip';
 
 @import 'illiniboard/daily_news';
+@import 'illiniboard/home_page';
 
 @mixin foundation-everything($flex: false) {
   @if $flex {

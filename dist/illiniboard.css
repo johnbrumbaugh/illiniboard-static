@@ -49,6 +49,142 @@
   fill: #13294B;
   stroke: #13294B; }
 
+.hp_second_row {
+  padding-top: 20px; }
+
+.hp_third_row {
+  padding-top: 40px; }
+
+.hp_secondary_article {
+  position: relative; }
+  .hp_secondary_article p.hp_image_label {
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+    margin-bottom: 0;
+    color: #fefefe;
+    background-color: rgba(10, 10, 10, 0.5);
+    font-size: 0.7em;
+    font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
+    font-weight: 400; }
+
+figcaption.hp_first_row {
+  color: #fefefe;
+  font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
+  font-size: 0.8em; }
+
+h4.hp_image_title {
+  position: absolute;
+  top: 0;
+  padding: 1rem;
+  margin-top: 0;
+  width: 100%;
+  color: #fefefe;
+  background-color: rgba(10, 10, 10, 0.5);
+  font-weight: 700; }
+
+.schedule_block {
+  border: 1px solid #E04E39;
+  box-shadow: 0 2px 0 rgba(204, 204, 204, 0.15);
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+  background: #fefefe;
+  position: relative; }
+  .schedule_block .header {
+    background: #13294B;
+    font-weight: 600;
+    color: #fefefe;
+    padding: 0 1.25rem;
+    overflow: hidden;
+    position: relative; }
+    .schedule_block .header h2 {
+      margin: 0;
+      color: #fefefe;
+      font-size: 0.7em;
+      font-weight: 700;
+      -webkit-margin-before: 0.83em;
+      -webkit-margin-after: 0.83em;
+      -webkit-margin-start: 0px;
+      -webkit-margin-end: 0px; }
+  .schedule_block ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .schedule_block .game {
+    padding-left: 10px;
+    border-bottom: 1px solid #E04E39;
+    color: #707372; }
+    .schedule_block .game:last-child {
+      border-bottom: none; }
+    .schedule_block .game .sport_icon {
+      display: block;
+      float: right;
+      margin-left: 0.75rem;
+      margin-right: 0.75rem; }
+    .schedule_block .game .date {
+      text-transform: uppercase;
+      text-decoration: underline;
+      color: #E04E39;
+      font-weight: 700;
+      font-size: 0.5em;
+      line-height: 1.1em; }
+    .schedule_block .game .opponent {
+      text-transform: uppercase;
+      color: #707372;
+      font-weight: 600;
+      font-size: 0.5em;
+      line-height: 1.1em; }
+    .schedule_block .game .time_tv {
+      text-transform: uppercase;
+      color: #0a0a0a;
+      font-size: 0.5em;
+      line-height: 1.1em; }
+
+.hp_tweet_container {
+  border: 1px solid #A5ACAF;
+  font-size: 0.8em;
+  padding: 5px;
+  margin-bottom: 20px; }
+  .hp_tweet_container .header {
+    margin-bottom: 10px; }
+    .hp_tweet_container .header .profile_image {
+      float: left;
+      padding-right: 10px; }
+    .hp_tweet_container .header .hp_author_name {
+      font-weight: 700; }
+    .hp_tweet_container .header .hp_author_handle {
+      color: #A5ACAF;
+      font-weight: 200; }
+  .hp_tweet_container .header:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both; }
+  .hp_tweet_container p.hp_tweet_content {
+    font-size: 0.7rem;
+    color: #707372;
+    font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif; }
+  .hp_tweet_container .action_bar .hp_tweet_actions {
+    float: right; }
+  .hp_tweet_container .action_bar .hp_tweet_time {
+    font-size: 0.6rem;
+    color: #AAB8C2; }
+
+.iconic_social_twitter {
+  fill: #55acee;
+  stroke: #55acee; }
+
+.hp_article_list_element {
+  border-bottom: solid 1px #13294B;
+  margin-bottom: 15px; }
+  .hp_article_list_element p {
+    font-size: 0.6em;
+    font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif; }
+  .hp_article_list_element h4 {
+    font-weight: 700;
+    color: #E04E39;
+    text-decoration: underline; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
