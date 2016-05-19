@@ -82,6 +82,8 @@ h4.hp_image_title {
   color: #fefefe;
   background-color: rgba(10, 10, 10, 0.5);
   font-weight: 700; }
+  h4.hp_image_title a {
+    color: #fefefe; }
 
 .schedule_block {
   border: 1px solid #E04E39;
@@ -184,6 +186,8 @@ h4.hp_image_title {
     font-weight: 700;
     color: #E04E39;
     text-decoration: underline; }
+    .hp_article_list_element h4 a {
+      color: #E04E39; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**

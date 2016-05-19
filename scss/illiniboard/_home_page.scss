@@ -37,6 +37,8 @@ h4.hp_image_title {
   	color: $white;
   	background-color: $orbit-caption-background;
   	font-weight: 700;
+	  
+	  a { color: $white; }
 }
 
 .schedule_block {
@@ -176,5 +178,7 @@ h4.hp_image_title {
 		font-weight: 700;
 		color: $illini-orange;
 		text-decoration: underline;
+		
+		a { color: $illini-orange; }
 	}
 }
