@@ -178,7 +178,8 @@ h4.hp_image_title {
 
 .hp_article_list_element {
   border-bottom: solid 1px #13294B;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  padding-bottom: 10px; }
   .hp_article_list_element p {
     font-size: 0.6em;
     font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif; }
