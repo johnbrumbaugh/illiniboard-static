@@ -1,0 +1,64 @@
+.story_contents {
+    margin-top: 20px;
+    @import "story_callout";
+}
+
+.s_title {
+    font-weight: 700;
+}
+
+.comments {
+    margin-top: 20px;
+
+    .c_title_row {
+        height: 40px;
+        width: 40px;
+        fill: $illini-orange;
+        stroke: $illini-orange;
+    }
+
+    h1 {
+        color: $illini-orange;
+        font-weight: 700;
+    }
+
+    p {
+        font-weight: 400;
+        font-family: $gotham-book;
+		font-weight: inherit;
+		font-size: 0.8rem;
+    }
+
+    .comment {
+        margin-top: 10px;
+    }
+
+    .comment_header_row {
+        font-size: 0.8rem;
+        background-color: $illini-navy;
+        color: $white;
+        padding-top: 3px;
+        padding-left: 3px;
+
+        .iconic {
+            height: 15px;
+            width: 15px;
+            fill: $white;
+            stroke: $white;
+        }
+
+        .c_author {
+            font-weight: 700;
+        }
+    }
+
+    .comment_footer_row {
+        font-size: 0.8rem;
+        border-bottom: 1px solid $illini-dark-steel-gray;
+
+        .iconic {
+            height: 15px;
+            width: 15px;
+        }
+    }
+}

@@ -51,6 +51,7 @@
 
 @import 'illiniboard/daily_news';
 @import 'illiniboard/home_page';
+@import 'illiniboard/story';
 
 @mixin foundation-everything($flex: false) {
   @if $flex {

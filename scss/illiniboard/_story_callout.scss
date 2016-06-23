@@ -1,0 +1,87 @@
+.callout {
+    font-family: $gotham-book;
+    font-size: 0.8rem;
+    border: 1px solid $illini-navy;
+    color: $illini-dark-steel-gray;
+    
+    a { 
+        color: $illini-dark-steel-gray;
+        text-decoration: underline; 
+    }
+    
+    .iconic-chat {
+        height: 15px;
+        width: 15px;
+    }
+    
+    .iconic-chat-bubble-back {
+        stroke: $illini-navy;
+        fill: $illini-navy;
+    }
+    
+    .iconic-chat-bubble-front {
+        stroke: $illini-orange;
+        fill: $illini-orange;
+    }
+    
+    .iconic-calendar {
+        height: 15px;
+        width: 15px;
+    }
+
+    .iconic-calendar-top {
+        stroke: $illini-navy;
+        fill: $illini-navy;
+    }
+
+    .iconic-calendar-body {
+        stroke: $illini-orange;
+        fill: $illini-orange;
+    }
+    
+    .iconic-person {
+        height: 15px;
+        width: 15px;
+    }
+
+    .iconic-person-male-body {
+        fill: $illini-navy;
+        stroke: $illini-navy;
+    }
+
+    .iconic-person-male-head {
+        fill: $illini-orange;
+        stroke: $illini-orange;
+    }
+    
+    .iconic-tags {
+        height: 15px;
+        width: 15px;
+    }
+    
+    .iconic-tags-back {
+        fill: $illini-navy;
+        stroke: $illini-navy;
+    }
+    
+    .iconic-tags-front {
+        fill: $illini-orange;
+        stroke: $illini-orange;
+    }
+    
+    .iconic-briefcase {
+        height: 15px;
+        width: 15px;
+    }
+    
+    .iconic-briefcase-handle, .iconic-briefcase-body-buckle {
+        fill: $illini-navy;
+        stroke: $illini-navy;
+    }
+    
+    .iconic-briefcase-body-bottom, .iconic-briefcase-body-top {
+        fill: $illini-orange;
+        stroke: $illini-orange;
+    }
+    
+}

@@ -190,6 +190,102 @@ h4.hp_image_title {
     .hp_article_list_element h4 a {
       color: #E04E39; }
 
+.story_contents {
+  margin-top: 20px; }
+  .story_contents .callout {
+    font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
+    font-size: 0.8rem;
+    border: 1px solid #13294B;
+    color: #707372; }
+    .story_contents .callout a {
+      color: #707372;
+      text-decoration: underline; }
+    .story_contents .callout .iconic-chat {
+      height: 15px;
+      width: 15px; }
+    .story_contents .callout .iconic-chat-bubble-back {
+      stroke: #13294B;
+      fill: #13294B; }
+    .story_contents .callout .iconic-chat-bubble-front {
+      stroke: #E04E39;
+      fill: #E04E39; }
+    .story_contents .callout .iconic-calendar {
+      height: 15px;
+      width: 15px; }
+    .story_contents .callout .iconic-calendar-top {
+      stroke: #13294B;
+      fill: #13294B; }
+    .story_contents .callout .iconic-calendar-body {
+      stroke: #E04E39;
+      fill: #E04E39; }
+    .story_contents .callout .iconic-person {
+      height: 15px;
+      width: 15px; }
+    .story_contents .callout .iconic-person-male-body {
+      fill: #13294B;
+      stroke: #13294B; }
+    .story_contents .callout .iconic-person-male-head {
+      fill: #E04E39;
+      stroke: #E04E39; }
+    .story_contents .callout .iconic-tags {
+      height: 15px;
+      width: 15px; }
+    .story_contents .callout .iconic-tags-back {
+      fill: #13294B;
+      stroke: #13294B; }
+    .story_contents .callout .iconic-tags-front {
+      fill: #E04E39;
+      stroke: #E04E39; }
+    .story_contents .callout .iconic-briefcase {
+      height: 15px;
+      width: 15px; }
+    .story_contents .callout .iconic-briefcase-handle, .story_contents .callout .iconic-briefcase-body-buckle {
+      fill: #13294B;
+      stroke: #13294B; }
+    .story_contents .callout .iconic-briefcase-body-bottom, .story_contents .callout .iconic-briefcase-body-top {
+      fill: #E04E39;
+      stroke: #E04E39; }
+
+.s_title {
+  font-weight: 700; }
+
+.comments {
+  margin-top: 20px; }
+  .comments .c_title_row {
+    height: 40px;
+    width: 40px;
+    fill: #E04E39;
+    stroke: #E04E39; }
+  .comments h1 {
+    color: #E04E39;
+    font-weight: 700; }
+  .comments p {
+    font-weight: 400;
+    font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
+    font-weight: inherit;
+    font-size: 0.8rem; }
+  .comments .comment {
+    margin-top: 10px; }
+  .comments .comment_header_row {
+    font-size: 0.8rem;
+    background-color: #13294B;
+    color: #fefefe;
+    padding-top: 3px;
+    padding-left: 3px; }
+    .comments .comment_header_row .iconic {
+      height: 15px;
+      width: 15px;
+      fill: #fefefe;
+      stroke: #fefefe; }
+    .comments .comment_header_row .c_author {
+      font-weight: 700; }
+  .comments .comment_footer_row {
+    font-size: 0.8rem;
+    border-bottom: 1px solid #707372; }
+    .comments .comment_footer_row .iconic {
+      height: 15px;
+      width: 15px; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
