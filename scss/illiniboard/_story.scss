@@ -9,6 +9,7 @@
 
 .comments {
     margin-top: 20px;
+    @include grid-row(24);
 
     .c_title_row {
         height: 40px;
@@ -54,11 +55,14 @@
 
     .comment_footer_row {
         font-size: 0.8rem;
-        border-bottom: 1px solid $illini-dark-steel-gray;
+        border-bottom: 1px solid $illini-orange;
+        color: $illini-metallic-silver;
 
         .iconic {
             height: 15px;
             width: 15px;
+            fill: $illini-metallic-silver;
+            stroke: $illini-metallic-silver;
         }
     }
 }
