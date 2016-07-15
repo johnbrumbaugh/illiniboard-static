@@ -1,0 +1,15 @@
+.original_post {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid $illini-orange;
+
+    @import "story_callout";
+
+    .parent_post {
+        p {
+            color: $illini-metallic-silver;
+            font-size: 0.9em;
+            font-family: $gotham-book;
+        }
+    }
+}

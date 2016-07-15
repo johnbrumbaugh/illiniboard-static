@@ -9,7 +9,7 @@
 
 .comments {
     margin-top: 20px;
-    @include grid-row(24);
+    // @include grid-row(24);
 
     .c_title_row {
         height: 40px;
@@ -63,6 +63,10 @@
             width: 15px;
             fill: $illini-metallic-silver;
             stroke: $illini-metallic-silver;
+        }
+
+        a.reply_link {
+            color: $illini-metallic-silver;
         }
     }
 }

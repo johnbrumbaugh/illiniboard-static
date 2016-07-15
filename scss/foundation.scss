@@ -49,9 +49,11 @@
 @import 'components/thumbnail';
 @import 'components/tooltip';
 
+@import 'illiniboard/common';
 @import 'illiniboard/daily_news';
 @import 'illiniboard/home_page';
 @import 'illiniboard/story';
+@import 'illiniboard/message_board';
 
 @mixin foundation-everything($flex: false) {
   @if $flex {
