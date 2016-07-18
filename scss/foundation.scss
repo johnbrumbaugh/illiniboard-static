@@ -54,6 +54,7 @@
 @import 'illiniboard/home_page';
 @import 'illiniboard/story';
 @import 'illiniboard/message_board';
+@import 'illiniboard/wmd_editor';
 
 @mixin foundation-everything($flex: false) {
   @if $flex {

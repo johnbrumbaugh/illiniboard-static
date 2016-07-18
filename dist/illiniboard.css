@@ -195,67 +195,74 @@ h4.hp_image_title {
     .hp_article_list_element h4 a {
       color: #E04E39; }
 
-.story_contents {
+.story .story_contents {
   margin-top: 20px; }
-  .story_contents .callout {
+  .story .story_contents .callout {
     font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
     font-size: 0.8rem;
     border: 1px solid #13294B;
     color: #707372; }
-    .story_contents .callout a {
+    .story .story_contents .callout a {
       color: #707372;
       text-decoration: underline; }
-    .story_contents .callout .iconic-chat {
+    .story .story_contents .callout .iconic-chat {
       height: 15px;
       width: 15px; }
-    .story_contents .callout .iconic-chat-bubble-back {
+    .story .story_contents .callout .iconic-chat-bubble-back {
       stroke: #13294B;
       fill: #13294B; }
-    .story_contents .callout .iconic-chat-bubble-front {
+    .story .story_contents .callout .iconic-chat-bubble-front {
       stroke: #E04E39;
       fill: #E04E39; }
-    .story_contents .callout .iconic-calendar {
+    .story .story_contents .callout .iconic-calendar {
       height: 15px;
       width: 15px; }
-    .story_contents .callout .iconic-calendar-top {
+    .story .story_contents .callout .iconic-calendar-top {
       stroke: #13294B;
       fill: #13294B; }
-    .story_contents .callout .iconic-calendar-body {
+    .story .story_contents .callout .iconic-calendar-body {
       stroke: #E04E39;
       fill: #E04E39; }
-    .story_contents .callout .iconic-person {
+    .story .story_contents .callout .iconic-person {
       height: 15px;
       width: 15px; }
-    .story_contents .callout .iconic-person-male-body {
+    .story .story_contents .callout .iconic-person-male-body {
       fill: #13294B;
       stroke: #13294B; }
-    .story_contents .callout .iconic-person-male-head {
+    .story .story_contents .callout .iconic-person-male-head {
       fill: #E04E39;
       stroke: #E04E39; }
-    .story_contents .callout .iconic-tags {
+    .story .story_contents .callout .iconic-tags {
       height: 15px;
       width: 15px; }
-    .story_contents .callout .iconic-tags-back {
+    .story .story_contents .callout .iconic-tags-back {
       fill: #13294B;
       stroke: #13294B; }
-    .story_contents .callout .iconic-tags-front {
+    .story .story_contents .callout .iconic-tags-front {
       fill: #E04E39;
       stroke: #E04E39; }
-    .story_contents .callout .iconic-briefcase {
+    .story .story_contents .callout .iconic-briefcase {
       height: 15px;
       width: 15px; }
-    .story_contents .callout .iconic-briefcase-handle, .story_contents .callout .iconic-briefcase-body-buckle {
+    .story .story_contents .callout .iconic-briefcase-handle, .story .story_contents .callout .iconic-briefcase-body-buckle {
       fill: #13294B;
       stroke: #13294B; }
-    .story_contents .callout .iconic-briefcase-body-bottom, .story_contents .callout .iconic-briefcase-body-top {
+    .story .story_contents .callout .iconic-briefcase-body-bottom, .story .story_contents .callout .iconic-briefcase-body-top {
       fill: #E04E39;
       stroke: #E04E39; }
-
-.s_title {
+.story .s_title {
   font-weight: 700; }
 
 .comments {
-  margin-top: 20px; }
+  margin-top: 20px;
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto; }
+  .comments::before, .comments::after {
+    content: ' ';
+    display: table; }
+  .comments::after {
+    clear: both; }
   .comments .c_title_row {
     height: 40px;
     width: 40px;
@@ -357,6 +364,169 @@ h4.hp_image_title {
     color: #A5ACAF;
     font-size: 0.9em;
     font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif; }
+
+.board_header .b_title {
+  color: #E04E39;
+  font-weight: 700; }
+
+.topic_listing .thread_list_element {
+  border-bottom: 1px solid #13294B;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+.topic_listing .odd {
+  background-color: #cacaca; }
+
+.thread_content .callout {
+  font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
+  font-size: 0.8rem;
+  border: 1px solid #13294B;
+  color: #707372; }
+  .thread_content .callout a {
+    color: #707372;
+    text-decoration: underline; }
+  .thread_content .callout .iconic-chat {
+    height: 15px;
+    width: 15px; }
+  .thread_content .callout .iconic-chat-bubble-back {
+    stroke: #13294B;
+    fill: #13294B; }
+  .thread_content .callout .iconic-chat-bubble-front {
+    stroke: #E04E39;
+    fill: #E04E39; }
+  .thread_content .callout .iconic-calendar {
+    height: 15px;
+    width: 15px; }
+  .thread_content .callout .iconic-calendar-top {
+    stroke: #13294B;
+    fill: #13294B; }
+  .thread_content .callout .iconic-calendar-body {
+    stroke: #E04E39;
+    fill: #E04E39; }
+  .thread_content .callout .iconic-person {
+    height: 15px;
+    width: 15px; }
+  .thread_content .callout .iconic-person-male-body {
+    fill: #13294B;
+    stroke: #13294B; }
+  .thread_content .callout .iconic-person-male-head {
+    fill: #E04E39;
+    stroke: #E04E39; }
+  .thread_content .callout .iconic-tags {
+    height: 15px;
+    width: 15px; }
+  .thread_content .callout .iconic-tags-back {
+    fill: #13294B;
+    stroke: #13294B; }
+  .thread_content .callout .iconic-tags-front {
+    fill: #E04E39;
+    stroke: #E04E39; }
+  .thread_content .callout .iconic-briefcase {
+    height: 15px;
+    width: 15px; }
+  .thread_content .callout .iconic-briefcase-handle, .thread_content .callout .iconic-briefcase-body-buckle {
+    fill: #13294B;
+    stroke: #13294B; }
+  .thread_content .callout .iconic-briefcase-body-bottom, .thread_content .callout .iconic-briefcase-body-top {
+    fill: #E04E39;
+    stroke: #E04E39; }
+
+.reply_form {
+  margin-top: 25px; }
+  .reply_form .rf_title {
+    color: #13294B;
+    font-weight: 700; }
+  .reply_form .preview_title {
+    font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
+    color: #E04E39;
+    font-weight: 700;
+    margin-top: -5px; }
+
+.wmd-panel {
+  width: 100%; }
+
+.wmd-button-bar {
+  width: 100%;
+  background-color: #A5ACAF; }
+
+.wmd-input {
+  height: 300px;
+  width: 100%;
+  background-color: #fefefe;
+  border: 1px solid #707372;
+  font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
+  font-size: 0.8rem; }
+
+.wmd-preview {
+  margin-top: -6px;
+  background-color: #fefefe;
+  font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
+  font-size: 0.8rem; }
+
+.wmd-button-row {
+  position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  padding: 0px;
+  height: 20px; }
+
+.wmd-spacer {
+  width: 1px;
+  height: 20px;
+  margin-left: 14px;
+  position: absolute;
+  background-color: #A5ACAF;
+  display: inline-block;
+  list-style: none; }
+
+.wmd-button {
+  width: 20px;
+  height: 20px;
+  padding-left: 2px;
+  padding-right: 3px;
+  position: absolute;
+  display: inline-block;
+  list-style: none;
+  cursor: pointer; }
+
+.wmd-button > span {
+  background-image: url(/static/js/pagedown/wmd-buttons.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  width: 20px;
+  height: 20px;
+  display: inline-block; }
+
+.wmd-spacer1 {
+  left: 50px; }
+
+.wmd-spacer2 {
+  left: 175px; }
+
+.wmd-spacer3 {
+  left: 300px; }
+
+.wmd-prompt-background {
+  background-color: Black; }
+
+.wmd-prompt-dialog {
+  border: 1px solid #999999;
+  background-color: #F5F5F5; }
+
+.wmd-prompt-dialog > div {
+  font-size: 0.8em;
+  font-family: arial, helvetica, sans-serif; }
+
+.wmd-prompt-dialog > form > input[type="text"] {
+  border: 1px solid #999999;
+  color: black; }
+
+.wmd-prompt-dialog > form > input[type="button"] {
+  border: 1px solid #888888;
+  font-family: trebuchet MS, helvetica, sans-serif;
+  font-size: 0.8em;
+  font-weight: bold; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**

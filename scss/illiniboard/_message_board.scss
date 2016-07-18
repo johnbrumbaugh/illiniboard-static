@@ -13,3 +13,42 @@
         }
     }
 }
+
+.board_header {
+    .b_title {
+        color: $illini-orange;
+        font-weight: 700;
+    }
+}
+
+.topic_listing {
+    .thread_list_element {
+        border-bottom: 1px solid $illini-navy;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .odd {
+        background-color: $medium-gray;
+    }
+}
+
+.thread_content {
+    @import "story_callout";
+}
+
+.reply_form {
+    margin-top: 25px;
+
+    .rf_title {
+        color: $illini-navy;
+        font-weight: 700;
+    }
+
+    .preview_title {
+        font-family: $gotham-book;
+        color: $illini-orange;
+        font-weight: 700;
+        margin-top: -5px;
+    }
+}
