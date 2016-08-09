@@ -10,6 +10,10 @@
   font-weight: 700;
   font-family: "Ideal Sans SSm A", "Ideal Sans SSm B", Geneva, sans-serif; }
 
+.ib_icon {
+  height: 30px;
+  border: 0px; }
+
 .dn_right_side_bar {
   font-size: 0.7rem;
   font-weight: 400; }
@@ -3939,7 +3943,7 @@ table.hover tr:nth-of-type(even):hover {
     clear: both; }
   .top-bar,
   .top-bar ul {
-    background-color: #A5ACAF; }
+    background-color: #fefefe; }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
