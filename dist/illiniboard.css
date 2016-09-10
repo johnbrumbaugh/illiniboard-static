@@ -14,6 +14,19 @@
   height: 30px;
   border: 0px; }
 
+.footer {
+  background-color: #707372;
+  padding-top: 20px;
+  padding-bottom: 30px; }
+  .footer a, .footer a:hover, .footer a:visited, .footer a:active, .footer a:link {
+    color: #fefefe; }
+  .footer .iconic_social_white {
+    fill: #fefefe;
+    stroke: #fefefe; }
+  .footer .social_links p {
+    margin-bottom: 0px;
+    font-size: 0.7em; }
+
 .dn_right_side_bar {
   font-size: 0.7rem;
   font-weight: 400; }

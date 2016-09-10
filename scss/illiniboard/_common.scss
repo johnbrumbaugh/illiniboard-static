@@ -11,3 +11,23 @@
 
 $topbar-background: $white;
 $topbar-submenu-background: $white;
+
+.footer {
+    background-color: $illini-dark-steel-gray;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    a, a:hover, a:visited, a:active, a:link { color: $white; }
+
+    .iconic_social_white {
+        fill: $white;
+        stroke: $white;
+    }
+
+    .social_links {
+        p { 
+            margin-bottom: 0px;
+            font-size: 0.7em;
+        }
+    }
+}
