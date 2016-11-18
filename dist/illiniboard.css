@@ -458,6 +458,20 @@ h4.hp_image_title {
     font-weight: 700;
     margin-top: -5px; }
 
+.instructions {
+  font-size: 0.8em; }
+
+.error {
+  font-size: 0.8em;
+  color: red; }
+  .error .iconic {
+    stroke: red;
+    fill: red; }
+
+input.ib-invalid-input {
+  background-color: rgba(236, 88, 64, 0.1) !important;
+  border-color: #ec5840 !important; }
+
 .wmd-panel {
   width: 100%; }
 
