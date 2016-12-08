@@ -387,11 +387,16 @@ h4.hp_image_title {
   font-weight: 700; }
 
 .topic_listing .thread_list_element {
-  border-bottom: 1px solid #13294B;
   padding-top: 5px;
   padding-bottom: 5px; }
 .topic_listing .odd {
-  background-color: #cacaca; }
+  background-color: #f3f3f3; }
+.topic_listing .t_title p {
+  line-height: 1.0;
+  margin-bottom: 0.25rem; }
+.topic_listing .t_title .date {
+  font-size: 0.5em;
+  color: #A5ACAF; }
 
 .thread_content .callout {
   font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
@@ -471,6 +476,26 @@ h4.hp_image_title {
 input.ib-invalid-input {
   background-color: rgba(236, 88, 64, 0.1) !important;
   border-color: #ec5840 !important; }
+
+h4.fa_sidebar {
+  color: #13294B;
+  font-weight: 700; }
+
+h5.fa_sidebar {
+  color: #E04E39;
+  font-size: 0.8em;
+  font-weight: 700; }
+
+img.fa_sidebar {
+  width: 250px; }
+
+.fa_sidebar_article {
+  border: 1px solid #A5ACAF;
+  padding: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+  .fa_sidebar_article a, .fa_sidebar_article a:hover, .fa_sidebar_article a:visited, .fa_sidebar_article a:active, .fa_sidebar_article a:link {
+    color: #E04E39; }
 
 .wmd-panel {
   width: 100%; }

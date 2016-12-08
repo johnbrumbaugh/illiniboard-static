@@ -30,10 +30,19 @@ module.exports = function(grunt) {
                         filter: 'isFile'
                     }
                 ]
-            }
+            },
+            deploy_logos: {
+                files: [
+                    {
+                        src: ['logo_images/ib_icon.png', 'logo_images/ib_logo.png'],
+                        dest: '../illiniboard-frontend/static/images/',
+                        filter: 'isFile'
+                    }
+                ]
+            } 
         }
     });
 
     grunt.registerTask('default', ['sass']);
-    grunt.registerTask('dev_deploy', ['sass', 'copy:default_development_deploy_css', 'copy:default_development_deploy_js']);
+    grunt.registerTask('dev_deploy', ['sass', 'copy:default_development_deploy_css', 'copy:default_development_deploy_js', 'copy:deploy_logos']);
 }
