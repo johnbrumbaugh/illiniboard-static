@@ -3,10 +3,22 @@
     font-size: 0.8rem;
     border: 1px solid $illini-navy;
     color: $illini-dark-steel-gray;
+
+    h2 {
+        font-size: 1.25em;
+        font-weight: 800;
+        color: $black;
+    }
     
     a { 
         color: $illini-dark-steel-gray;
         text-decoration: underline; 
+    }
+
+    .callout-footer {
+        font-size: 0.8em;
+        p { margin-bottom: 0px;}
+        a { color: $illini-orange; }
     }
     
     .iconic-chat {
@@ -44,12 +56,12 @@
         width: 15px;
     }
 
-    .iconic-person-male-body {
+    .iconic-person-male-body, .iconic-person-body, .iconic-person-female-body {
         fill: $illini-navy;
         stroke: $illini-navy;
     }
 
-    .iconic-person-male-head {
+    .iconic-person-male-head, .iconic-person-head, .iconic-person-female-head {
         fill: $illini-orange;
         stroke: $illini-orange;
     }
@@ -82,6 +94,21 @@
     .iconic-briefcase-body-bottom, .iconic-briefcase-body-top {
         fill: $illini-orange;
         stroke: $illini-orange;
+    }
+
+    .iconic-envelope {
+        height: 15px;
+        width: 15px;
+    }
+
+    .iconic-envelope-closed-envelope-body {
+        fill: $illini-orange;
+        stroke: $illini-orange;
+    }
+
+    .iconic-envelope-closed-envelope-flap {
+        fill: $illini-navy;
+        stroke: $illini-navy;
     }
     
 }

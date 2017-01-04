@@ -212,6 +212,79 @@ h4.hp_image_title {
     .hp_article_list_element h4 a {
       color: #E04E39; }
 
+.my_account .callout {
+  font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
+  font-size: 0.8rem;
+  border: 1px solid #13294B;
+  color: #707372; }
+  .my_account .callout h2 {
+    font-size: 1.25em;
+    font-weight: 800;
+    color: #0a0a0a; }
+  .my_account .callout a {
+    color: #707372;
+    text-decoration: underline; }
+  .my_account .callout .callout-footer {
+    font-size: 0.8em; }
+    .my_account .callout .callout-footer p {
+      margin-bottom: 0px; }
+    .my_account .callout .callout-footer a {
+      color: #E04E39; }
+  .my_account .callout .iconic-chat {
+    height: 15px;
+    width: 15px; }
+  .my_account .callout .iconic-chat-bubble-back {
+    stroke: #13294B;
+    fill: #13294B; }
+  .my_account .callout .iconic-chat-bubble-front {
+    stroke: #E04E39;
+    fill: #E04E39; }
+  .my_account .callout .iconic-calendar {
+    height: 15px;
+    width: 15px; }
+  .my_account .callout .iconic-calendar-top {
+    stroke: #13294B;
+    fill: #13294B; }
+  .my_account .callout .iconic-calendar-body {
+    stroke: #E04E39;
+    fill: #E04E39; }
+  .my_account .callout .iconic-person {
+    height: 15px;
+    width: 15px; }
+  .my_account .callout .iconic-person-male-body, .my_account .callout .iconic-person-body, .my_account .callout .iconic-person-female-body {
+    fill: #13294B;
+    stroke: #13294B; }
+  .my_account .callout .iconic-person-male-head, .my_account .callout .iconic-person-head, .my_account .callout .iconic-person-female-head {
+    fill: #E04E39;
+    stroke: #E04E39; }
+  .my_account .callout .iconic-tags {
+    height: 15px;
+    width: 15px; }
+  .my_account .callout .iconic-tags-back {
+    fill: #13294B;
+    stroke: #13294B; }
+  .my_account .callout .iconic-tags-front {
+    fill: #E04E39;
+    stroke: #E04E39; }
+  .my_account .callout .iconic-briefcase {
+    height: 15px;
+    width: 15px; }
+  .my_account .callout .iconic-briefcase-handle, .my_account .callout .iconic-briefcase-body-buckle {
+    fill: #13294B;
+    stroke: #13294B; }
+  .my_account .callout .iconic-briefcase-body-bottom, .my_account .callout .iconic-briefcase-body-top {
+    fill: #E04E39;
+    stroke: #E04E39; }
+  .my_account .callout .iconic-envelope {
+    height: 15px;
+    width: 15px; }
+  .my_account .callout .iconic-envelope-closed-envelope-body {
+    fill: #E04E39;
+    stroke: #E04E39; }
+  .my_account .callout .iconic-envelope-closed-envelope-flap {
+    fill: #13294B;
+    stroke: #13294B; }
+
 .story .story_contents {
   margin-top: 20px; }
   .story .story_contents .callout {
@@ -219,9 +292,19 @@ h4.hp_image_title {
     font-size: 0.8rem;
     border: 1px solid #13294B;
     color: #707372; }
+    .story .story_contents .callout h2 {
+      font-size: 1.25em;
+      font-weight: 800;
+      color: #0a0a0a; }
     .story .story_contents .callout a {
       color: #707372;
       text-decoration: underline; }
+    .story .story_contents .callout .callout-footer {
+      font-size: 0.8em; }
+      .story .story_contents .callout .callout-footer p {
+        margin-bottom: 0px; }
+      .story .story_contents .callout .callout-footer a {
+        color: #E04E39; }
     .story .story_contents .callout .iconic-chat {
       height: 15px;
       width: 15px; }
@@ -243,10 +326,10 @@ h4.hp_image_title {
     .story .story_contents .callout .iconic-person {
       height: 15px;
       width: 15px; }
-    .story .story_contents .callout .iconic-person-male-body {
+    .story .story_contents .callout .iconic-person-male-body, .story .story_contents .callout .iconic-person-body, .story .story_contents .callout .iconic-person-female-body {
       fill: #13294B;
       stroke: #13294B; }
-    .story .story_contents .callout .iconic-person-male-head {
+    .story .story_contents .callout .iconic-person-male-head, .story .story_contents .callout .iconic-person-head, .story .story_contents .callout .iconic-person-female-head {
       fill: #E04E39;
       stroke: #E04E39; }
     .story .story_contents .callout .iconic-tags {
@@ -267,6 +350,15 @@ h4.hp_image_title {
     .story .story_contents .callout .iconic-briefcase-body-bottom, .story .story_contents .callout .iconic-briefcase-body-top {
       fill: #E04E39;
       stroke: #E04E39; }
+    .story .story_contents .callout .iconic-envelope {
+      height: 15px;
+      width: 15px; }
+    .story .story_contents .callout .iconic-envelope-closed-envelope-body {
+      fill: #E04E39;
+      stroke: #E04E39; }
+    .story .story_contents .callout .iconic-envelope-closed-envelope-flap {
+      fill: #13294B;
+      stroke: #13294B; }
 .story .s_title {
   font-weight: 700; }
 
@@ -329,9 +421,19 @@ h4.hp_image_title {
     font-size: 0.8rem;
     border: 1px solid #13294B;
     color: #707372; }
+    .original_post .callout h2 {
+      font-size: 1.25em;
+      font-weight: 800;
+      color: #0a0a0a; }
     .original_post .callout a {
       color: #707372;
       text-decoration: underline; }
+    .original_post .callout .callout-footer {
+      font-size: 0.8em; }
+      .original_post .callout .callout-footer p {
+        margin-bottom: 0px; }
+      .original_post .callout .callout-footer a {
+        color: #E04E39; }
     .original_post .callout .iconic-chat {
       height: 15px;
       width: 15px; }
@@ -353,10 +455,10 @@ h4.hp_image_title {
     .original_post .callout .iconic-person {
       height: 15px;
       width: 15px; }
-    .original_post .callout .iconic-person-male-body {
+    .original_post .callout .iconic-person-male-body, .original_post .callout .iconic-person-body, .original_post .callout .iconic-person-female-body {
       fill: #13294B;
       stroke: #13294B; }
-    .original_post .callout .iconic-person-male-head {
+    .original_post .callout .iconic-person-male-head, .original_post .callout .iconic-person-head, .original_post .callout .iconic-person-female-head {
       fill: #E04E39;
       stroke: #E04E39; }
     .original_post .callout .iconic-tags {
@@ -377,6 +479,15 @@ h4.hp_image_title {
     .original_post .callout .iconic-briefcase-body-bottom, .original_post .callout .iconic-briefcase-body-top {
       fill: #E04E39;
       stroke: #E04E39; }
+    .original_post .callout .iconic-envelope {
+      height: 15px;
+      width: 15px; }
+    .original_post .callout .iconic-envelope-closed-envelope-body {
+      fill: #E04E39;
+      stroke: #E04E39; }
+    .original_post .callout .iconic-envelope-closed-envelope-flap {
+      fill: #13294B;
+      stroke: #13294B; }
   .original_post .parent_post p {
     color: #A5ACAF;
     font-size: 0.9em;
@@ -406,9 +517,19 @@ h4.hp_image_title {
   font-size: 0.8rem;
   border: 1px solid #13294B;
   color: #707372; }
+  .thread_content .callout h2 {
+    font-size: 1.25em;
+    font-weight: 800;
+    color: #0a0a0a; }
   .thread_content .callout a {
     color: #707372;
     text-decoration: underline; }
+  .thread_content .callout .callout-footer {
+    font-size: 0.8em; }
+    .thread_content .callout .callout-footer p {
+      margin-bottom: 0px; }
+    .thread_content .callout .callout-footer a {
+      color: #E04E39; }
   .thread_content .callout .iconic-chat {
     height: 15px;
     width: 15px; }
@@ -430,10 +551,10 @@ h4.hp_image_title {
   .thread_content .callout .iconic-person {
     height: 15px;
     width: 15px; }
-  .thread_content .callout .iconic-person-male-body {
+  .thread_content .callout .iconic-person-male-body, .thread_content .callout .iconic-person-body, .thread_content .callout .iconic-person-female-body {
     fill: #13294B;
     stroke: #13294B; }
-  .thread_content .callout .iconic-person-male-head {
+  .thread_content .callout .iconic-person-male-head, .thread_content .callout .iconic-person-head, .thread_content .callout .iconic-person-female-head {
     fill: #E04E39;
     stroke: #E04E39; }
   .thread_content .callout .iconic-tags {
@@ -454,6 +575,15 @@ h4.hp_image_title {
   .thread_content .callout .iconic-briefcase-body-bottom, .thread_content .callout .iconic-briefcase-body-top {
     fill: #E04E39;
     stroke: #E04E39; }
+  .thread_content .callout .iconic-envelope {
+    height: 15px;
+    width: 15px; }
+  .thread_content .callout .iconic-envelope-closed-envelope-body {
+    fill: #E04E39;
+    stroke: #E04E39; }
+  .thread_content .callout .iconic-envelope-closed-envelope-flap {
+    fill: #13294B;
+    stroke: #13294B; }
 
 .reply_form {
   margin-top: 25px; }
