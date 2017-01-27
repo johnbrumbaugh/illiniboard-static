@@ -22,12 +22,6 @@
 	}
 }
 
-figcaption.hp_first_row {
-	color: $white;
-	font-family: $gotham-book;
-	font-size: 0.8em;
-}
-
 h4.hp_image_title {
 	position: absolute;
 	top: 0;
@@ -39,6 +33,12 @@ h4.hp_image_title {
   	font-weight: 700;
 	  
 	  a { color: $white; }
+}
+
+.row.collapse {
+    .hp_secondary_article {
+        margin-bottom: 20px;
+    }
 }
 
 .schedule_block {

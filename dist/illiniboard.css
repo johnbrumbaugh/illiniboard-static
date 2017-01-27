@@ -27,6 +27,12 @@
     margin-bottom: 0px;
     font-size: 0.7em; }
 
+img.right-pad {
+  padding-right: 10px; }
+
+a.red {
+  color: #ff0000; }
+
 .dn_right_side_bar {
   font-size: 0.7rem;
   font-weight: 400; }
@@ -90,11 +96,6 @@
     font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
     font-weight: 400; }
 
-figcaption.hp_first_row {
-  color: #fefefe;
-  font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
-  font-size: 0.8em; }
-
 h4.hp_image_title {
   position: absolute;
   top: 0;
@@ -106,6 +107,9 @@ h4.hp_image_title {
   font-weight: 700; }
   h4.hp_image_title a {
     color: #fefefe; }
+
+.row.collapse .hp_secondary_article {
+  margin-bottom: 20px; }
 
 .schedule_block {
   border: 1px solid #E04E39;
