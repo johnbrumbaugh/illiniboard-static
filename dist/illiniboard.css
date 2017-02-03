@@ -10,6 +10,11 @@
   font-weight: 700;
   font-family: "Ideal Sans SSm A", "Ideal Sans SSm B", Geneva, sans-serif; }
 
+.subtitle_navy {
+  color: #13294B;
+  font-weight: 700;
+  font-family: "Ideal Sans SSm A", "Ideal Sans SSm B", Geneva, sans-serif; }
+
 .ib_icon {
   height: 30px;
   border: 0px; }
@@ -188,6 +193,10 @@ h4.hp_image_title {
     display: block;
     height: 0;
     clear: both; }
+  .hp_tweet_container h3 {
+    font-size: 0.8rem;
+    color: #13294B;
+    font-weight: 700; }
   .hp_tweet_container p.hp_tweet_content {
     font-size: 0.7rem;
     color: #707372;
@@ -207,7 +216,7 @@ h4.hp_image_title {
   margin-bottom: 15px;
   padding-bottom: 10px; }
   .hp_article_list_element p {
-    font-size: 0.6em;
+    font-size: 0.7em;
     font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif; }
   .hp_article_list_element h4 {
     font-weight: 700;
@@ -215,6 +224,22 @@ h4.hp_image_title {
     text-decoration: underline; }
     .hp_article_list_element h4 a {
       color: #E04E39; }
+
+.iconic-rss {
+  height: 15px;
+  width: 15px; }
+
+.iconic-rss-center {
+  fill: #13294B;
+  stroke: #13294B; }
+
+.iconic-rss-wave {
+  fill: #E04E39;
+  stroke: #E04E39; }
+
+.iconic-facebook {
+  fill: #3b5998;
+  stroke: #3b5998; }
 
 .my_account .callout {
   font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
@@ -286,6 +311,21 @@ h4.hp_image_title {
     fill: #E04E39;
     stroke: #E04E39; }
   .my_account .callout .iconic-envelope-closed-envelope-flap {
+    fill: #13294B;
+    stroke: #13294B; }
+  .my_account .callout .iconic-delete {
+    height: 15px;
+    width: 15px; }
+  .my_account .callout .iconic-delete-body {
+    fill: #E04E39;
+    stroke: #E04E39; }
+  .my_account .callout .iconic-inkwell {
+    height: 15px;
+    width: 15px; }
+  .my_account .callout .iconic-inkwell-feather {
+    fill: #E04E39;
+    stroke: #E04E39; }
+  .my_account .callout .iconic-inkwell-well {
     fill: #13294B;
     stroke: #13294B; }
 
@@ -363,8 +403,27 @@ h4.hp_image_title {
     .story .story_contents .callout .iconic-envelope-closed-envelope-flap {
       fill: #13294B;
       stroke: #13294B; }
+    .story .story_contents .callout .iconic-delete {
+      height: 15px;
+      width: 15px; }
+    .story .story_contents .callout .iconic-delete-body {
+      fill: #E04E39;
+      stroke: #E04E39; }
+    .story .story_contents .callout .iconic-inkwell {
+      height: 15px;
+      width: 15px; }
+    .story .story_contents .callout .iconic-inkwell-feather {
+      fill: #E04E39;
+      stroke: #E04E39; }
+    .story .story_contents .callout .iconic-inkwell-well {
+      fill: #13294B;
+      stroke: #13294B; }
+  .story .story_contents a {
+    color: #E04E39; }
 .story .s_title {
   font-weight: 700; }
+.story .draft_callout {
+  margin-top: 20px; }
 
 .comments {
   margin-top: 20px;
@@ -414,7 +473,8 @@ h4.hp_image_title {
       fill: #A5ACAF;
       stroke: #A5ACAF; }
     .comments .comment_footer_row a.reply_link {
-      color: #A5ACAF; }
+      color: #A5ACAF;
+      padding-right: 10px; }
 
 .original_post {
   margin-top: 20px;
@@ -490,6 +550,21 @@ h4.hp_image_title {
       fill: #E04E39;
       stroke: #E04E39; }
     .original_post .callout .iconic-envelope-closed-envelope-flap {
+      fill: #13294B;
+      stroke: #13294B; }
+    .original_post .callout .iconic-delete {
+      height: 15px;
+      width: 15px; }
+    .original_post .callout .iconic-delete-body {
+      fill: #E04E39;
+      stroke: #E04E39; }
+    .original_post .callout .iconic-inkwell {
+      height: 15px;
+      width: 15px; }
+    .original_post .callout .iconic-inkwell-feather {
+      fill: #E04E39;
+      stroke: #E04E39; }
+    .original_post .callout .iconic-inkwell-well {
       fill: #13294B;
       stroke: #13294B; }
   .original_post .parent_post p {
@@ -588,12 +663,28 @@ h4.hp_image_title {
   .thread_content .callout .iconic-envelope-closed-envelope-flap {
     fill: #13294B;
     stroke: #13294B; }
+  .thread_content .callout .iconic-delete {
+    height: 15px;
+    width: 15px; }
+  .thread_content .callout .iconic-delete-body {
+    fill: #E04E39;
+    stroke: #E04E39; }
+  .thread_content .callout .iconic-inkwell {
+    height: 15px;
+    width: 15px; }
+  .thread_content .callout .iconic-inkwell-feather {
+    fill: #E04E39;
+    stroke: #E04E39; }
+  .thread_content .callout .iconic-inkwell-well {
+    fill: #13294B;
+    stroke: #13294B; }
+
+.rf_title {
+  color: #13294B;
+  font-weight: 700; }
 
 .reply_form {
   margin-top: 25px; }
-  .reply_form .rf_title {
-    color: #13294B;
-    font-weight: 700; }
   .reply_form .preview_title {
     font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif;
     color: #E04E39;

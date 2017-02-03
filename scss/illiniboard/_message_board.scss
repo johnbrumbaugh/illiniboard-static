@@ -53,13 +53,14 @@
     @import "story_callout";
 }
 
+
+.rf_title {
+    color: $illini-navy;
+    font-weight: 700;
+}
+
 .reply_form {
     margin-top: 25px;
-
-    .rf_title {
-        color: $illini-navy;
-        font-weight: 700;
-    }
 
     .preview_title {
         font-family: $gotham-book;

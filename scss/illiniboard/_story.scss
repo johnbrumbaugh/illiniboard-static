@@ -2,10 +2,18 @@
     .story_contents {
         margin-top: 20px;
         @import "story_callout";
+
+        a {
+            color: $illini-orange;
+        }
     }
 
     .s_title {
         font-weight: 700;
+    }
+
+    .draft_callout {
+        margin-top: 20px;
     }
 }
 
@@ -69,6 +77,7 @@
 
         a.reply_link {
             color: $illini-metallic-silver;
+            padding-right: 10px;
         }
     }
 }

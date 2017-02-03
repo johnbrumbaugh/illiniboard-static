@@ -1,5 +1,6 @@
 module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
     require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks
     grunt.initConfig({
         sass: {
@@ -27,6 +28,11 @@ module.exports = function(grunt) {
                     {
                         src: ['dist/foundation.min.js'],
                         dest: '../illiniboard-frontend/static/js/foundation.min.js',
+                        filter: 'isFile'
+                    },
+                    {
+                        src: ['dist/plugins/foundation.reveal.js'],
+                        dest: '../illiniboard-frontend/static/js/foundation.reveal.js',
                         filter: 'isFile'
                     }
                 ]

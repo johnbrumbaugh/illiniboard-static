@@ -144,6 +144,12 @@ h4.hp_image_title {
 		height: 0;
 		clear: both;
 	}
+
+	h3 {
+		font-size: 0.8rem;
+		color: $illini-navy;
+		font-weight: 700;
+	}
 	
 	p.hp_tweet_content { 
 		font-size: 0.7rem;
@@ -171,7 +177,7 @@ h4.hp_image_title {
 	padding-bottom: 10px;
 	
 	p {
-		font-size: 0.6em;
+		font-size: 0.7em;
 		font-family: $gotham-book;
 	}
 	
@@ -182,4 +188,24 @@ h4.hp_image_title {
 		
 		a { color: $illini-orange; }
 	}
+}
+
+.iconic-rss {
+	height: 15px;
+	width: 15px;
+}
+
+.iconic-rss-center {
+	fill: $illini-navy;
+	stroke: $illini-navy;
+}
+
+.iconic-rss-wave {
+	fill: $illini-orange;
+	stroke: $illini-orange;
+}
+
+.iconic-facebook {
+	fill: #3b5998;
+	stroke: #3b5998;
 }
