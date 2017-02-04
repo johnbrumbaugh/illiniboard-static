@@ -13,12 +13,23 @@ module.exports = function(grunt) {
                 }
             }
         },
+        cssmin: {
+            minify_css: {
+                src: 'dist/illiniboard.css',
+                dest: 'dist/illiniboard.min.css'
+            }
+        },
         copy: {
             default_development_deploy_css: {
                 files: [
                     {
                         src: ['dist/illiniboard.css'], 
                         dest: '../illiniboard-frontend/static/css/illiniboard.css', 
+                        filter: 'isFile'
+                    },
+                    {
+                        src: ['dist/illiniboard.min.css'],
+                        dest: '../illiniboard-frontend/static/css/illiniboard.min.css',
                         filter: 'isFile'
                     }
                 ]
@@ -50,5 +61,5 @@ module.exports = function(grunt) {
     });
 
     grunt.registerTask('default', ['sass']);
-    grunt.registerTask('dev_deploy', ['sass', 'copy:default_development_deploy_css', 'copy:default_development_deploy_js', 'copy:deploy_logos']);
+    grunt.registerTask('dev_deploy', ['sass', 'cssmin:minify_css', 'copy:default_development_deploy_css', 'copy:default_development_deploy_js', 'copy:deploy_logos']);
 }

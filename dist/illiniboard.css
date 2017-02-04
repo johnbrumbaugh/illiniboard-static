@@ -426,6 +426,15 @@ h4.hp_image_title {
       stroke: #13294B; }
   .story .story_contents a {
     color: #E04E39; }
+  .story .story_contents .audio-controls {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+    border: 1px solid #13294B; }
+    .story .story_contents .audio-controls h4 {
+      font-weight: 700;
+      color: #E04E39;
+      font-family: "Gotham SSm A", "Gotham SSm B", Geneva, sans-serif; }
 .story .s_title {
   font-weight: 700; }
 .story .draft_callout {

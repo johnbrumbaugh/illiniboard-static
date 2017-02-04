@@ -6,6 +6,19 @@
         a {
             color: $illini-orange;
         }
+
+        .audio-controls {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding: 20px;
+            border: 1px solid $illini-navy;
+
+            h4 {
+                font-weight: 700;
+                color: $illini-orange;
+                font-family: $gotham-book;
+            }
+        }
     }
 
     .s_title {
